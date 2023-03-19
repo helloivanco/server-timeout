@@ -5,7 +5,7 @@ const app = express();
 // Load the .env file
 dotenv.config();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
   // Get the timeout duration from the request's query parameter
